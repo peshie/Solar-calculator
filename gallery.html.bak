@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>About Muse Solar Calculator</title>
+  <link rel="shortcut icon" href="./assets/muses.png" type="image/png">
+  <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+
+<style>
+    html,
+    body {
+        font-family: "Montserrat", sans-serif;
+        overflow: auto;
+        width: 100vw;
+        background: #b6eb8c; 
+    }
+</style>
+
+
+</head>
+<body >
+<div id= "wrapper">
+<div id="bg"></div>
+<header class="main-header">
+    <nav id="nav">
+      <ul class="nav-links">
+        <li class="link-border"><a href="index.html">HOME</a></li>
+        <li class="link-border"><a href="gallery.html">GALLERY</a></li>
+        <li class="link-border"><a href="about.html">ABOUT</a></li>
+        <li><a class="btn loading  highlighted-btn">CALCULATE</a></li>
+    </ul>
+    </nav>
+
+<div id="album">
+<p>This is a collection of solar photovolatic installations, tools, generators and simple configuration created from users inputs.</p>
+<div class="table">
+    <ul >
+        <li><img src="assets/rectangle 2.png">Composite solar panel </li>
+        <li><img src="assets/Rectangle 2.11.png" >Solar-wiring</li>
+        <li><img src="assets/Rectangle 2.10.png">Solar Box </li>
+        <li><img src="assets/Rectangle 2.9.png">Solar placement</li>
+    </ul>
+
+    <ul>
+        <li><img src="assets/Rectangle 2.8.png">Solar conversion</li>
+        <li><img src="assets/Rectangle 2.7.png">Solar genertaion index</li>
+        <li><img src="assets/Rectangle 2.6.png">Regulator configuration</li>
+        <li><img src="assets/Rectangle 2.5.png">Illumination solar</li>
+    </ul>
+
+    <ul>
+        <li><img src="assets/Rectangle 2.4.png">Soalr panel</li>
+        <li><img src="assets/Rectangle 2.3.png">Removable castellon</li>
+        <li><img src="assets/Rectangle 2.2.png">Sistema generator</li>
+        <li><img src="assets/Rectangle 2.1.png">Solar plant sketch</li>
+    </ul>
+</div>
+</div>
+<footer style="text-align: center; font-weight: bold;"> &copy TeamMuse HNGi6</footer>
+</body>
+</html>

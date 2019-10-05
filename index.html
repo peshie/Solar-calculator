@@ -4,9 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    
+    <link href="style.css" rel="stylesheet">
+    <link href="jquery-ui-1.12.1/jquery-ui.css" rel="stylesheet" />
+    <link href="jquery-ui-1.12.1/dist/css/select2.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+    <link rel="shortcut icon" href="./assets/muses.png" type="image/png">
+    
+    <script src="jquery-3.4.1.js"></script>
+    <script src="jquery-ui-1.12.1/jquery-ui.js"></script>
+    <script src="jquery-ui-1.12.1/dist/js/select2.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
+   
+    
+    <title>Muse Solar Calculator</title>
+    <style>
+        html,
+        body {
+            font-family: "Montserrat", sans-serif;
+            
+    overflow: hidden;
+        }
+    </style>
+    
 </head>
 <body>
+        <div class="wrapper">
+        <div id="background"></div>
+        <header class="main-header">
+                <nav id="nav">
+                    <!-- <img style="visibility: hidden;"id="logo" src="assets/muses.png" /> -->
+                    <ul class="nav-links"> 
+                        <li class="link-border"><a href="index.html">HOME</a></li>
+                        <li class="link-border"><a href="gallery.html">GALLERY</a></li>
+                        <li class="link-border"><a href="about.html">ABOUT</a></li>
+                        <li><a class="btn loading  highlighted-btn">CALCULATE</a></li>
+                    </ul>
+                </nav>
+        </header>
+        <div id="info">
+            <h1>Muse Solar Calculator</h1>
+            <p>The Muse solar calculator enables you calculate the exact amount of solar panels you would need for your home</p>
+            <div class="user-info-container">
+                <div id="userinfo">
+                    <input id="name" placeholder="Enter your name" type="text" required /><label id="errorMessage"></label><span
+                        class="btn loading" id="calc">CALCULATE</span>
+                </div>
+            </div>
+            
+
+        </div>
+
+        </div>
     
+
+
+        
+        <script src="main.js"></script>
+    <script>
+    
+    </script>
 </body>
 </html>
+
+
